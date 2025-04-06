@@ -9,7 +9,6 @@ In line with our commitment to empowering researchers and practitioners in the d
 | Tile                                   | Affiliations                                                                            | Venue Year | Material                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------|
 |	Surprise	|	Columbia University, USA	|	2023	|	[Paper](https://doi.org/10.21105/joss.02174), [Code](https://surpriselib.com/)	|
-|	Case Recommender	|	University of São Paulo, Brazil	|	2023	|	[Paper](http://doi.acm.org/10.1145/3240323.3241611), [Code](https://github.com/caserec/CaseRecommender)	|
 |	Microsoft Recommender	|	Micrrosoft UK	|	2023	|	[Paper](https://dl.acm.org/doi/abs/10.1145/3366424.3382692), [Code](https://github.com/microsoft/recommenders)	|
 |	ELLIOT	|	SisInfLab Group	|	2023	|	[Paper](https://doi.org/10.1145/3404835.3463245), [Code](https://github.com/sisinflab/elliot)	|
 

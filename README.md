@@ -94,3 +94,7 @@ This section compiles key defense mechanisms tailored to mitigate poisoning atta
 |	CoLR: Low-Rank FedRec	|	College of Engineering & Computer Science, VinUniversity	|	2024	|	[Paper](https://arxiv.org/pdf/2401.03748), [Code](https://github.com/NNHieu/CoLR-FedRec)	|
 | FATE - Federated AI Technology Enabler | AI Group from WeBank, [FedAI](https://www.fedai.org)                                       | 2023  | [Paper](https://www.jmlr.org/papers/volume22/20-815/20-815.pdf) , [Code](https://github.com/FederatedAI/FATE)            |
 | OpenFL                                 | Intel and The University of Pennsylvania, [FeTS](https://www.med.upenn.edu/cbica/fets/) | 2022  | [Paper](http://iopscience.iop.org/article/10.1088/1361-6560/ac97d9), [Code](https://github.com/securefederatedai/openfl) |
+
+***
+
+### We are actively updating this repository. Stay tuned for updates!

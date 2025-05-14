@@ -1,13 +1,14 @@
 # Navigating Threats in Federated Recommender Systems: A Survey of Poisoning Attacks and Defense Strategies
-give a sensible startup description here that introduce our repo (just 3-4 lines only)
+This repository complements our survey by providing curated codebases, datasets, and tools related to poisoning attacks and defense strategies in Federated Recommender Systems (FedRS). It aims to support reproducibility, benchmarking, and practical experimentation for researchers and developers working in this emerging domain. In addition to summarizing academic efforts, we provide hands-on resources to help the community reproduce existing works, test new hypotheses, and accelerate deployment in both research prototypes and real-world production environments. This bridge between theory and implementation is critical for driving innovation in secure federated recommendation systems.
 
-## Reproducibility  Aspects (Evaluation Frameworks and Data Sets): 
-
-give a sensible remarks here about we carefully selected common publically available datasets and Evaluation Frameworks (just 3-4 lines only)
+## Reproducibility Aspects (Evaluation Frameworks and Data Sets):
+We have carefully selected widely-used, publicly available datasets and evaluation frameworks that are commonly adopted in federated recommender systems research. These resources include real-world user-item interaction datasets, federated data partitioning schemes, and benchmark metrics to ensure fair and consistent comparison across different attack and defense models. The goal is to enable reproducibility of experimental results and support standardized evaluation for future studies in this domain.
 
 #### Evaluation Frameworks 
 | Tile                                   | Affiliations                                                                            | Venue Year | Material                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------|
+|	Recommenders	|	National University of Defense Technology, China	|	2025	|	[Paper](https://www.amazon.com/Recommender-Systems-Frontiers-Practices-Dongsheng/dp/9819989639/), [Code](https://github.com/recommenders-team/recommenders)	|
+|	NVIDIA AI HugeCTR	|	NVIDIA	|	2025	|	[Paper](https://developer.nvidia.com/merlin), [Code](https://github.com/NVIDIA-Merlin/HugeCTR)	|
 |	Surprise	|	Columbia University, USA	|	2023	|	[Paper](https://doi.org/10.21105/joss.02174), [Code](https://surpriselib.com/)	|
 |	Case Recommender	|	University of São Paulo, Brazil	|	2023	|	[Paper](http://doi.acm.org/10.1145/3240323.3241611), [Code](https://github.com/caserec/CaseRecommender)	|
 |	Microsoft Recommender	|	Micrrosoft UK	|	2023	|	[Paper](https://dl.acm.org/doi/abs/10.1145/3366424.3382692), [Code](https://github.com/microsoft/recommenders)	|
@@ -59,9 +60,9 @@ We explored a range of open-source libraries and codebases designed to implement
 
 
 
-## Topic No. 1 Attack models 
+## Attack models 
 
-[Give a give a sensible remarks here about federated learning attack models for recommender systems and we selected recent implementations (just 3-4 lines only)]
+This section collects and curates recent implementations of poisoning attack models specifically adapted or designed for federated recommender systems. Federated learning introduces unique vulnerabilities due to decentralized training, which attackers exploit through gradient manipulation, malicious client behaviors, or data poisoning. We selected state-of-the-art and representative attack models—including both classical and AI-driven methods—to facilitate understanding, benchmarking, and extension by researchers and practitioners.
 
 
 | Tile                                   | Affiliations                                                                            | Venue Year | Material                                                                                                                 |
@@ -79,12 +80,10 @@ We explored a range of open-source libraries and codebases designed to implement
 |	Federated Recommendation with Additive Personalization	|	VinUniversity Hanoi, Vietnam	|	ICLR 2024	|	[Paper](https://arxiv.org/pdf/2401.03748v1), [Code](https://github.com/mtics/FedRAP)	|
 |	An Efficient Federated Graph Neural Network for PoI Recommendation	|	Federation University, Australia	|	ACM-TSN 2024	|	[Paper](https://dl.acm.org/doi/abs/10.1145/3694682), [Code](https://github.com/yushuowiki/FedGST)	|
 |	Privacy-preserving federated knowledge graph aware recommender system	|	Zhongnan University of Economics and Law, China	|	 Applied Intelligence  2024	|	[Paper](https://dl.acm.org/doi/abs/10.1145/3694682), [Code](https://github.com/yushuowiki/FedGST)	|
-
 |	Semi-global sequential recommendation via EM-like federated training	|	Polytechnic University, China	|	Expert Systems with Applications 2024	|	[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424003257), [Code](https://github.com/MuziLee-x/FedEM)	|
 
-## Topic No. 1 Defense models 
-[Give a give a sensible remarks here about federated learning defense models for recommender systems and we selected recent implementations (just 3-4 lines only)]
-
+## Defense models 
+This section compiles key defense mechanisms tailored to mitigate poisoning attacks in federated recommender systems. Given the collaborative yet vulnerable nature of FL-based RS, defense strategies must address adversarial behaviors while preserving model utility and personalization. We include recent implementations of robust aggregation techniques, anomaly detection methods, and adaptive learning strategies that have shown effectiveness in FL settings. These resources support the community in replicating, comparing, and extending defense techniques in realistic scenarios.
 
 | Tile                                   | Affiliations                                                                            | Venue Year | Material                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------|

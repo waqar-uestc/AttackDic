@@ -88,7 +88,6 @@ We explored a range of open-source libraries and codebases designed to implement
 
 | Tile                                   | Affiliations                                                                            | Venue Year | Material                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------|
-
 |	PFedRec: Dual Personalization	|	University of Technology Sydney	|	2023	|	[Paper](https://arxiv.org/abs/2301.08143), [Code](https://github.com/Zhangcx19/IJCAI-23-PFedRec)	|
 |	PFGNNPlus for Item-to-Item FedRec	|	University of Illinois Chicago	|	2023	|	[Paper](https://arxiv.org/abs/2306.03191), [Code](https://github.com/zfan20/PFGNNPlus)	|
 |	Parameter Transmission-Free Federated Recommender System	|	The University of Queensland	|	2024	|	[Paper](https://arxiv.org/pdf/2311.14968), [Code](https://github.com/hi-weiyuan/PTF-FedRec)	|

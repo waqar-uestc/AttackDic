@@ -1,4 +1,4 @@
-# Navigating Threats in Federated Recommender Systems: A Survey of Poisoning Attack Models and Defense Strategies
+# Navigating Threats in Federated Recommender Systems: A Survey of Attack Models and Defense Strategies
 This repository complements our survey by providing curated codebases, datasets, and tools related to poisoning attacks and defense strategies in Federated Recommender Systems (FedRS). It aims to support reproducibility, benchmarking, and practical experimentation for researchers and developers working in this emerging domain. In addition to summarizing academic efforts, we provide hands-on resources to help the community reproduce existing works, test new hypotheses, and accelerate deployment in both research prototypes and real-world production environments. This bridge between theory and implementation is critical for driving innovation in secure federated recommendation systems.
 
 ## Reproducibility Aspects (Evaluation Frameworks and Data Sets):

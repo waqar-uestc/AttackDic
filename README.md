@@ -3,7 +3,7 @@ This repository complements our survey by providing curated codebases, datasets,
 
 ## 🔬 Reproducibility: Evaluation Frameworks & Datasets
 
-We use **widely adopted, publicly available datasets** and evaluation frameworks standard in federated recommender systems (FedRS) research — including real-world user-item interaction datasets, federated data partitioning schemes, and benchmark metrics. This ensures **fair comparison**, experimental reproducibility, and a consistent baseline for future studies.
+We use **widely adopted, publicly available datasets** and evaluation frameworks standard in federated recommender systems (FedRS) research, including real-world user-item interaction datasets, federated data partitioning schemes, and benchmark metrics. This ensures **fair comparison**, experimental reproducibility, and a consistent baseline for future studies.
 
 ---
 

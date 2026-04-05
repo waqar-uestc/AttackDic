@@ -1,8 +1,41 @@
 # Navigating Threats in Federated Recommender Systems: A Survey of Attack Models and Defense Strategies
 This repository complements our survey by providing curated codebases, datasets, and tools related to poisoning attacks and defense strategies in Federated Recommender Systems (FedRS). It aims to support reproducibility, benchmarking, and practical experimentation for researchers and developers working in this emerging domain. In addition to summarizing academic efforts, we provide hands-on resources to help the community reproduce existing works, test new hypotheses, and accelerate deployment in both research prototypes and real-world production environments. This bridge between theory and implementation is critical for driving innovation in secure federated recommendation systems.
 
-## Reproducibility Aspects (Evaluation Frameworks and Data Sets):
-We have carefully selected widely-used, publicly available datasets and evaluation frameworks that are commonly adopted in federated recommender systems research. These resources include real-world user-item interaction datasets, federated data partitioning schemes, and benchmark metrics to ensure fair and consistent comparison across different attack and defense models. The goal is to enable reproducibility of experimental results and support standardized evaluation for future studies in this domain.
+## 🔬 Reproducibility: Evaluation Frameworks & Datasets
+
+We use **widely adopted, publicly available datasets** and evaluation frameworks standard in federated recommender systems (FedRS) research — including real-world user-item interaction datasets, federated data partitioning schemes, and benchmark metrics. This ensures **fair comparison**, experimental reproducibility, and a consistent baseline for future studies.
+
+---
+
+## 📚 Literature Search Strategy
+
+The literature collection followed a **structured, reproducible search protocol**. A comprehensive keyword pool was constructed across four dimensions:
+
+- **System Paradigms:** `Federated`, `Recommender`, `Federated Rec.`
+- **Attack & Threat Models:** `Attacks`, `Poison`, `Adversarial`, `Shilling`, `Inference`, `Membership`
+- **Defense & Robustness:** `Detection`, `Defense`, `Privacy`, `Responsible`
+- **Enabling Technologies:** `Blockchain`, `Deep Learning`, `Survey`
+
+Keywords were iteratively refined and combined using Boolean operators (`AND`/`OR`) to form targeted queries, executed across **ACM Digital Library, IEEE Xplore, SpringerLink, ScienceDirect, and arXiv**. The search was limited to peer-reviewed publications and high-quality preprints in relevant venues. Retrieved studies were then aggregated and deduplicated before screening.
+
+---
+
+## ✅ Inclusion & Exclusion Criteria
+
+Studies were screened using a **multi-stage protocol** (title/abstract filtering → full-text review) based on the following criteria:
+
+**Included if the study:**
+- Explicitly addresses FL-based recommender systems
+- Proposes or analyzes attack models (poisoning, inference, etc.)
+- Introduces defense mechanisms with experimental or theoretical validation
+- Covers emerging paradigms (e.g., blockchain-integrated or LLM-driven attacks)
+
+**Excluded if the study:**
+- Focuses solely on centralized recommender systems
+- Lacks technical depth (e.g., position papers without validation)
+- Is a duplicate or not written in English
+
+Exact queries, intermediate counts, and final selection numbers are documented to ensure **full transparency and reproducibility**.
 
 #### Evaluation Frameworks 
 | Tile                                   | Affiliations                                                                            | Venue Year | Material                                                                                                                 |
